@@ -1,1 +1,16 @@
-
+SELECT name, COUNT(*) FROM passenger GROUP BY name
+SELECT name, origin, destination FROM flights JOIN passenger ON passenger.id = flights.id
+SELECT * FROM `passenger` WHERE name LIKE '%i%'
+SELECT DISTINCT flights_id FROM `passenger`
+SELECT name, flights_id FROM `passenger` 
+INSERT INTO passenger (id, name, flights_id)VALUES(8,"Isaac",23)
+SELECT flights_id FROM `passenger`ORDER BY flights_id
+UPDATE flights SET origin =  'Panamá' WHERE id = '8' AND origin = 'Lima' AND destination = 'New York'
+UPDATE flights SET destination =  'Ucrania' WHERE id = '8';
+UPDATE flights SET duration = '22' WHERE id =  '8'
+SELECT AVG (flights_id) FROM passenger
+SELECT MIN(Duration) FROM flights
+SELECT MAX(flights_id) FROM passenger
+SELECT name AS 'Nombre' FROM passenger WHERE name = 'Isaac' 
+SELECT origin, destination, name FROM flights LEFT JOIN passenger ON passenger.flights_id = flights.id
+SELECT origin, destination, name FROM flights RIGHT JOIN passenger ON passenger.flights_id = flights.id
