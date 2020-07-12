@@ -1,0 +1,155 @@
+<DOCTYPE html>
+<HTML lang = 'es'>
+	<head>
+		<title> Mi pagina </title>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	</head>
+
+	<body>
+	<div id = 'carouselSlideOnly' class = 'carousel Slide' data-ride = 'carousel'>
+		<div class = 'carousel-inner'>
+			<div class = 'carousel-item active'>
+				<img width = '1260' height = '955' src = 'titulo.jpg'>
+			</div>
+		</div>
+	</div>
+
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<b><i><a class="navbar-brand" href="#">ISAAC A</a></b><i>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id= "navbarNavDropdown">
+				<ul class="navbar-nav">
+					 <li class="nav-item active"><a class="nav-link" href="#Resumen profesional">Perfil</a></li>
+					 <li class="nav-item " ><a class="nav-link" href="#Educacion">Educacion</a></li>
+					 <li class="nav-item"><a class="nav-link" href="#Habilidades profesionales">Habilidades profesionales</a>
+					 <li class="nav-item"><a class="nav-link" href="#Experiencia en voluntariado">Experiencia en voluntario</a></li>
+					 <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+				
+		<div id = 'Resumen profesional' class = 'container-fluid vh-100' style = 'padding-top: 70px'>
+			<div class = 'row'>
+				<div class = 'carousel-item active'>
+					<img width = '1260' height = '746' src = 'fondo.jpg'>
+				</div>	
+				<div class = 'col col -sm-4 text-justify'>
+					<font color = 'white'>
+					<h5><b><a '#Resumen profesional'>ACERCA DE MI...</b></a></h5>
+						<p><img width="280" height="380" src = "yo.jpg" align ="right">Graduado de un curso intensivo de la Academia de Desarrolladores de Software (FUNDADER), en el cual aprendí a usar una base de datos, programación orientada a objetos. Utilice Visual Studio Code (Python), sé hacer consultas en MySQL, conocimiento basico-intermedio en HTML. Y en la base de todas estas habilidades y conocimientos, soy capaz de analizar la situación y tomar decisiones, puedo trabajar en equipo sin ningún tipo de problema, tomó bien la crítica constructiva</p>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/uiNvd5854Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></br>
+						<div class = 'text-center'>
+							<h6>"Hoja de vida en ingles"</h6>
+							<a href = 'Resume.pdf' class = 'btn btn-primary mb-2'  download = 'Resume(Isaac Alvarado).pdf'>Visualizar</a>
+							<h6>"Hoja de vida en español"</h6>
+							<a href = 'Hoja de vida.pdf' class = 'btn btn-primary mb-2' download = 'Curriculum(Isaac Alvarado).pdf'>Visualizar</a>
+							<h6>"Cover letter"</h6>
+							<a href = 'Cover letter.pdf' class = 'btn btn-primary mb-2' download = 'Cover_letter(Isaac Alvarado).pdf'>Visualizar</a>
+						</div>
+					</font>	
+		</div>	
+
+		<div id = 'Educacion' class = 'container-fluid vh-100' style = 'padding-top: 60px'>
+			<div class = 'row'>
+				<div class = 'carousel-item active'>
+					<img width = '1260' height = '646' src = 'Educacion.jpg'>
+				</div>					
+				<div class = 'col col -sm-4 text-center'>
+					<h5><a '#Educacion'>EDUCACION</a></h5>			
+						<p>Graduado en la Academia de Desarrolladores de Software – FUNDADER </p>
+							<ul><i>2 de marzo de 2020 – 2020</ul></i> <br></br>
+						<p>Curso basico de desarrollador Back-end – Fundación Carlos Slim</p>
+							<ul><i>22 de junio de 2020 – 28 de junio de 2020</ul></i> <br></br>
+						<p>Fundamentos de Python – Cisco Networking academy</p>
+							<ul><i>12 de mayo de 2020 – 26 de mayo de 2020</ul></i> <br></br>
+				
+					<p><h5>IDIOMAS</h5></p>
+						<ul><p>Español</p>
+						<p>Inglés basico</p></ul><br></br>
+		</div>
+				
+		<div id = 'Habilidades profesionales' class = 'container-fluid vh-100' style = 'padding-top: 60px'>
+			<div class = 'row'>
+				<div class = 'carousel-item active'>
+					<img width = '1260' height = '546' src = 'habilidades.png'>
+				</div>
+				<div class = 'col col -sm-4 text-center'>
+					<h5><a '#Habilidades profesionales'>HABILIDADES PROFESIONALES</a></h5>
+						<p>Manejo de programas de Microsoft Office (Word, Excel, PowerPoint)</p>
+						<p>Cómodo trabajar en Microsoft Windows 10</p>
+						<p>Conocimiento de programas como python y MySQL</p>
+						<p>Conocimiento en HTML (Básico-intermedio)</p>
+						<p>Conocimiento en Back-end (básico)</p>  <br></br>
+		</div>
+
+		<div id = 'Experiencia en voluntariado' class = 'container-fluid vh-100' style = 'padding-top: 60px;'>
+			<div class = 'row'>
+				<div class = 'carousel-item active'>
+					<img width = '1260' height = '546' src = 'voluntariado.jpg'>
+				</div>
+				<div class = 'col col -sm-4 text-center'>
+					<h5><a '#Experiencia en voluntariado'>EXPERIENCIA EN VOLUNTARIADO</a></h5>
+						<p><b>Panamá Open Karate – @FUNDESENPTY</p></b>
+							<p><ul><i>Septiembre 2016 – 2018</ul></p></i>
+								<ul>llevaba el registro de los invitados en la entrada, le daba la bienvenida a los competidos y las diferentes personas que asistian al evento cuando entraban</ul><br></br>
+						<p><b>Entrega de regalos y juguetes</p></b>
+							<p><i><ul>16 de diciembre de 2017</ul></p></i>
+								<ul>Voluntario en una entrega de regalos y juguetes a niños y niñas con un grupo de personas en una pequeña comunidad en Capira</ul>
+		</div>
+
+		<div id = 'contacto' class = 'container-fluid vh-100' style = ' padding-top: 70px'>
+			<div class = 'row'>
+				<div class = 'carousel-item active'>
+					<img width = '1260' height = '846' src = 'img.jpeg'>
+				</div>
+				<div class = 'col col -sm-4 text-left'>
+					<h5><i><a '#contacto'>info.</a></i></h5>
+					<p>isaacmanuel2305@gmail.com</p>
+					<p>Contactar al: +507 6605-8339</p>
+					<p>Arráijan, Panamá West</p>
+
+			<div id = 'contacto' class = 'container-fluid vh-100 '>
+			<h4>FORMULARIO DE CONTACTO</h4>
+				<div class = 'row justify-content -md-center'>
+					<div class = 'col -sm-8'>
+						<h5 style = 'text-center;'>Deje su consulta</h5>
+						<from id = 'contact-from' method = 'post' action = 'contact.php' role = 'from'>
+							<div class = 'messages'></div>
+								<div class = 'controls' style = 'text-center'>
+									<div class = 'col -md-6'>
+										<div class = 'from-group'>
+											<label for = 'from_nombre'>Nombre:</label><br>
+											<input type = 'text' size = "30" maxlength = "30" id = 'from_name' name = 'name' class = 'from-control' placeholder = 'Introduzca su nombre' required></br>
+											<div class = 'help-block with-errors'></div>
+										</div>
+									</div>
+									<div class = 'col -md-6 text-left'>
+										<div class = 'from-group'>
+											<label for = 'from_lastmane'>Apellido:</label><br>
+											<input type = 'text' size = "30" maxlength = "30"  id = 'from_lastname' name = 'surname' class = 'from-control' placeholder = 'Introduzca su apellido' required></br>
+										<div class = 'help-block with-errors'></div>
+									</div>				
+								</div>
+								<div class = 'col -md-6'>
+									<div class = 'from-group'>
+										<label for = 'from_email'>Correo:</label><br>
+										<input type = 'text' size = "30" maxlength = "35" id = 'from_email' name = 'email' class = 'from-control' placeholder = 'Introduzca su correo electronico' required></br>
+										<div class = 'help-block with-errors'></div>
+									</div>
+								</div>
+								<div class = 'col -md-6' style = 'horizontal-align: top;'>
+									<div class = 'from-group'>
+										<label for = 'from_messages'>mensaje:</label><br>
+										<textarea id="from_" name ="message" rows="10" cols="42" class = 'from-control' placeholder = 'Ingrese su mensaje aqui!' required></textarea></br>
+										<div class = 'help-block with-errors'></div>	
+									</div> 
+								<br><botton type = 'submit' class = 'btn btn-primary mb-2' style = 'text-center'>Enviar</button></br>
+								</div>
+		</div>
+	</body>
+</HTML>
